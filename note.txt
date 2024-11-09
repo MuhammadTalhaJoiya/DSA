@@ -1,0 +1,3 @@
+*object can not be made by iinterface
+*classes inherit interfaces and we usually make object from that classes
+*we have to make classes firstly then make object out of it for implementing data structure

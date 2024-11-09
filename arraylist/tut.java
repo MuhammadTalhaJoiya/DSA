@@ -7,27 +7,27 @@
 // Collections.sort() or your own sorting algorithm like bubble sort).
 // 3. Implement binary search on the sorted list (use Collections.binarySearch()
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
-public class tut{
-    public static void main(String args[]){
-        ArrayList<Integer> list=new ArrayList<Integer>();
-        Scanner sc=new Scanner(System.in);
-        for(int i=0;i<20;i++){
-            int user=sc.nextInt();
-            list.add(user);
-        }
-        System.out.println(list);
-        Collections.sort(list);
-        // System.out.println(list);
-        // // System.out.println(list.get(2));
-        // list.add(1,1000);
-        // list.set(2,1000);
-        // list.remove(2);
-        // System.out.println(list.size());
-        System.out.println(list);
-        int indexarray=Collections.binarySearch(list,5555);
-        System.out.println(indexarray);
-    }
-}
+// import java.util.ArrayList;
+// import java.util.Collections;
+// import java.util.Scanner;
+// public class tut{
+//     public static void main(String args[]){
+//         ArrayList<Integer> list=new ArrayList<Integer>();
+//         Scanner sc=new Scanner(System.in);
+//         for(int i=0;i<20;i++){
+//             int user=sc.nextInt();
+//             list.add(user);
+//         }
+//         System.out.println(list);
+//         Collections.sort(list);
+//         // System.out.println(list);
+//         // // System.out.println(list.get(2));
+//         // list.add(1,1000);
+//         // list.set(2,1000);
+//         // list.remove(2);
+//         // System.out.println(list.size());
+//         System.out.println(list);
+//         int indexarray=Collections.binarySearch(list,5555);
+//         System.out.println(indexarray);
+//     }
+// }
