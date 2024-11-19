@@ -73,12 +73,12 @@
 //     }
 // }
 
-public class task5{
-    class arraymethod{
+// public class task5{
+//     class arraymethod{
         
-    }
-    public static void main(String arg[]){
-        Array ar = new Array (10);
+//     }
+//     public static void main(String arg[]){
+//         Array ar = new Array (10);
         
-    }
-}
+//     }
+// }
