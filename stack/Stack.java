@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 // class StackList{
 //     // Node head;
 //     static class Node{
@@ -101,3 +103,43 @@
 //         }
 //     }
 // }
+
+
+
+public class Stack{
+    static class  StackArraylist{
+        static ArrayList<Integer> list=new ArrayList<Integer>();
+        public static boolean isEmpty(){
+            return list.size()==0;
+        }
+        public static void push(Integer data){
+            list.add(data);
+        }
+        public static int pop(){
+            if(isEmpty()){
+                return -1;
+            }
+            int value=list.get(list.size()-1);
+            list.remove(list.size()-1);
+            return value;
+        }
+        public static int peek(){
+            if(isEmpty()){
+                return -1;
+            }
+            return list.get(list.size()-1);
+        }
+
+    }
+    public static void main(String main[]){
+        StackArraylist obj1=new StackArraylist();
+        obj1.push(1);
+        obj1.push(2);
+        obj1.push(3);
+        obj1.push(4);
+        while (!obj1.isEmpty()) {
+            System.out.println(obj1.peek());
+            obj1.pop();
+        }
+    }
+}
